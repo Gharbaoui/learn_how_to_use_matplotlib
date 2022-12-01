@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy.random as rd
 
 
-print(plt.style.available)
 
 def name_axis():
     plt.xlabel('cache-size')
@@ -30,8 +29,9 @@ def main():
     x_axis = list(range(0, 10))
     plot_moroco_temp(x_axis)
     plot_auts_temp(x_axis)
+    plt.style.use('ggplot')
     show_graph()
 
 
 if __name__ == "__main__":
-    pass
+    main()
