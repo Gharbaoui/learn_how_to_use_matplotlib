@@ -18,7 +18,7 @@ def plot_auts_temp(x_axis):
     plt.plot(x_axis, y_axis, color='b', marker= 'o',linestyle='--', label='austr')
 
 def plot_legends():
-    plt.legend()
+    plt.legend(loc='lower right')
 
 def show_graph():
     plot_legends()
