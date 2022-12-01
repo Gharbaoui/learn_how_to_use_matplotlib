@@ -9,11 +9,11 @@ def name_axis():
 
 def plot_moroco_temp(x_axis):
     y_axis = rd.randint(100, size=(10))
-    plt.plot(x_axis, y_axis, 'k-', label='maroc')
+    plt.plot(x_axis, y_axis, 'k-',marker='.', label='maroc')
 
 def plot_auts_temp(x_axis):
     y_axis = rd.randint(60, size=(10))
-    plt.plot(x_axis, y_axis, color='b', linestyle='--', label='austr')
+    plt.plot(x_axis, y_axis, color='b', marker= 'o',linestyle='--', label='austr')
 
 def plot_legends():
     plt.legend()
