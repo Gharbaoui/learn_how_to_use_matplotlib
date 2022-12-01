@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy.random as rd
 
+
+print(plt.style.available)
+
 def name_axis():
     plt.xlabel('cache-size')
     plt.ylabel('hate-rate')
@@ -29,5 +32,6 @@ def main():
     plot_auts_temp(x_axis)
     show_graph()
 
+
 if __name__ == "__main__":
-    main()
+    pass
