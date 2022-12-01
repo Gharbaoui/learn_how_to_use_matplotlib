@@ -23,6 +23,7 @@ def plot_legends():
 def show_graph():
     plot_legends()
     plt.grid(True)
+    plt.savefig('plot.png')
     plt.show()
 
 def main():
