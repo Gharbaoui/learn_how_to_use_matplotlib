@@ -13,7 +13,7 @@ def plot_moroco_temp(x_axis):
 
 def plot_auts_temp(x_axis):
     y_axis = rd.randint(60, size=(10))
-    plt.plot(x_axis, y_axis, 'b-.', label='austr')
+    plt.plot(x_axis, y_axis, color='b', linestyle='--', label='austr')
 
 def plot_legends():
     plt.legend()
